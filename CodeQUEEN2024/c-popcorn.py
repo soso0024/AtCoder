@@ -9,6 +9,7 @@ for _ in range(num_shops):
 
 ans = num_kinds
 for bit in range(2**num_shops):
+    print(bit)
     ans_shop = 0
     current_kinds = []
     for i in range(num_shops):
