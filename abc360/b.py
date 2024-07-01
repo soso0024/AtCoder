@@ -8,7 +8,9 @@ for w in range(len_S):
         for k in range(0, len_S, w):
             try:
                 ss += S[k + c]
+                print(f"ss={ss} k={k} c={c}")
             except:
+                print("Im here")
                 pass
         if ss == T:
             print("Yes")
