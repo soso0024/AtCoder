@@ -1,7 +1,6 @@
 N = int(input())
 A = list(map(int, input().split()))
 
-
 save = 0
 ans_count = 0
 ans_list = []
