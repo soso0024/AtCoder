@@ -18,7 +18,7 @@ print(ans_count)
 
 # Other Solution
 S = input()
-L = set() # 
+L = set() # 重複をなくせる
 for i in range(len(S)):
     for o in range(i, len(S)):
         L.add(S[i:o+1])
