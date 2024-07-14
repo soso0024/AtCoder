@@ -17,3 +17,16 @@ for i in range(len(binary_n) - 1, 0, -1):
         break
 
 print(cnt)
+
+# Other Solution
+N = int(input())
+cnt = 0
+while True:
+    if N % 2 == 0:
+        cnt += 1
+        N //= 2
+        if N == 0:
+            break
+    else:
+        break
+print(cnt)
