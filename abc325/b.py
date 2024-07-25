@@ -3,7 +3,7 @@ cnt = [0 for _ in range(24)]
 for i in range(0, n):
     w, x = map(int, input().split())
     cnt[x] += w
-print(cnt)
+# print(cnt)
 # [5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0] 時刻 0 ~ 24時間の中で動ける人材の数
 
 ans = 0
