@@ -8,7 +8,7 @@ s = [0] * N
 # print(s)
 for i in range(M):
     s[info_strength[i][1] - 1] += 1
-# print(s)
+print(s)
 cnt = 0
 No1 = -1
 for i in range(len(s)):
