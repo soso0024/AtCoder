@@ -16,3 +16,23 @@ for i in range(N):
             # print("Im here 2")
             break
 print(ans)
+
+
+# Other Solution
+def find(Str, List):
+    if Str in List:
+        return List.index(Str) + 1
+    else:
+        return 0
+
+
+N, M = map(int, input().split())
+C = [s for s in input().split()]
+D = [s for s in input().split()]
+P = [int(num) for num in input().split()]
+
+ans = 0
+for n in range(N):
+    ans += P[find(C[n], D)]
+
+print(ans)
