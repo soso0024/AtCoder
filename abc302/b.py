@@ -2,6 +2,7 @@ H, W = map(int, input().split())
 S = []
 for _ in range(H):
     S.append(input())
+# S = [input() for _ in range(H)]
 # print(S)
 
 di = [-1, -1, -1, 0, 0, 1, 1, 1]
